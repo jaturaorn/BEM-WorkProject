@@ -14,3 +14,40 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.bg-img {
+  background-image: url("https://ebm.co.th/assets/images/home/elib.png");
+  background-color: #fad53d;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-bg1 {
+  background-image: url("../images/fatty-corgi.jpg");
+  width: 65%;
+  height: 65%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-bg2 {
+  background-image: url("../images/fatty-corgi.jpg");
+  width: 65%;
+  height: 65%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-bg3 {
+  background-image: url("../images/fatty-corgi.jpg");
+  width: 65%;
+  height: 65%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

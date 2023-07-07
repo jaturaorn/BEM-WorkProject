@@ -1,7 +1,4 @@
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
+import { Card, Button, Col, Row } from "react-bootstrap";
 import ArrowRight from "../images/Vector.png";
 import Cat from "../images/kabo-p6yH8VmGqxo-unsplash.jpg";
 
@@ -25,8 +22,6 @@ const Carding = () => {
                 <Card.Text>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
                   hic assumenda facilis nisi nostrum facere? Cumque veniam nihil
-                  voluptate facilis, obcaecati temporibus repellat ullam
-                  voluptatem amet optio nobis, neque error!
                 </Card.Text>
                 <Button variant="btn-light btn-outline-secondary">
                   อ่านเพิ่มเติม
@@ -43,7 +38,7 @@ const Carding = () => {
           </Col>
         ))}
       </Row>
-      <div className="pricing-header p-3 pb-md-4 mx-auto mt-2">
+      <div className="p-3 pb-md-4 mx-auto mt-2">
         <p className="lead mb-4 text-center">
           ดูเพิ่มเติม
           <img

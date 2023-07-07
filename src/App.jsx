@@ -7,6 +7,7 @@ import Hero from "../component/Hero.jsx";
 import FillData from "../component/FillData.jsx";
 import Jum1 from "../component/Jum1.jsx";
 import Carding from "../component/Carding.jsx";
+import CardCarousel from "../component/CardCarousel.jsx";
 import "./App.css";
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <FillData />
       <Jum1 />
       <Carding />
+      <CardCarousel />
     </>
   );
 }
