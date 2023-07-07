@@ -9,6 +9,9 @@ import Jum1 from "../component/Jum1.jsx";
 import Carding from "../component/Carding.jsx";
 import CardCarousel from "../component/CardCarousel.jsx";
 import FooterImage from "../component/FooterImage.jsx";
+import Contact from "../component/Contact.jsx";
+import FooterTop from "../component/FooterTop.jsx";
+import Footer from "../component/Footer.jsx";
 import "./App.css";
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
       <Carding />
       <CardCarousel />
       <FooterImage />
+      <Contact />
+      <FooterTop />
+      <Footer />
     </>
   );
 }

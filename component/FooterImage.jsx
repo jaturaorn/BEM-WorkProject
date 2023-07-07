@@ -4,7 +4,7 @@ const FooterImage = () => {
       <img
         src="https://ebm.co.th/assets/images/home/image-footer.jpg"
         height={500}
-        width={1300}
+        width={1325}
         className="img-fluid mt-4 ms-3"
         alt="footer-img"
       />
