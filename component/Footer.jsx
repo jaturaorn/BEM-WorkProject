@@ -1,141 +1,96 @@
+import TrianLogo from "../images/Frame 329-60@2x.png";
+import Qrcode from "../images/qr_ios.jpg";
+import Appstore from "../images/appstore-icon.png";
+import Googleplay from "../images/googleplay-icon.png";
 const Footer = () => {
   return (
     <>
-      <div className="container">
-        <footer className="py-5">
-          <div className="row">
-            <div className="col-6 col-md-2 mb-3">
-              <h5>Section</h5>
+      <div className="container Footer-2">
+        <footer>
+          <div className="row text-bg-dark ps-5">
+            <div className="col-6 col-md-2 mb-3 ms-5 py-3">
+              <h5>รถไฟฟ้ามหานคร สายสีเหลือง ลาดพร้าว - สำโรง</h5>
               <ul className="nav flex-column">
                 <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-body-secondary">
-                    Home
+                  <a href="#" className="nav-link p-0 text-light">
+                    เกี่ยวกับเรา
                   </a>
                 </li>
                 <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-body-secondary">
-                    Features
+                  <a href="#" className="nav-link p-0 text-light">
+                    ข้อมูลบัตรโดยสาร
                   </a>
                 </li>
                 <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-body-secondary">
-                    Pricing
+                  <a href="#" className="nav-link p-0 text-light">
+                    การเติมเงินบัตรแรบบิท
                   </a>
                 </li>
                 <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-body-secondary">
-                    FAQs
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-body-secondary">
-                    About
+                  <a href="#" className="nav-link p-0 text-light">
+                    เส้นทางและอัตราค่าโดยสาร
                   </a>
                 </li>
               </ul>
             </div>
 
-            <div className="col-6 col-md-2 mb-3">
-              <h5>Section</h5>
-              <ul className="nav flex-column">
+            <div className="col-4 col-md-3 mb-3 pt-4">
+              <ul className="nav flex-column mt-5">
                 <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-body-secondary">
-                    Home
+                  <a href="#" className="nav-link p-0 text-light">
+                    รถไฟฟ้าที่เกี่ยวข้อง
                   </a>
                 </li>
                 <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-body-secondary">
-                    Features
+                  <a href="#" className="nav-link p-0 text-light">
+                    โปรโมชั่น
                   </a>
                 </li>
                 <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-body-secondary">
-                    Pricing
+                  <a href="#" className="nav-link p-0 text-light">
+                    ติดต่อเรา
                   </a>
                 </li>
                 <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-body-secondary">
-                    FAQs
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-body-secondary">
-                    About
+                  <a href="#" className="nav-link p-0 text-light">
+                    Sitemap
                   </a>
                 </li>
               </ul>
             </div>
 
-            <div className="col-6 col-md-2 mb-3">
-              <h5>Section</h5>
-              <ul className="nav flex-column">
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-body-secondary">
-                    Home
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-body-secondary">
-                    Features
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-body-secondary">
-                    Pricing
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-body-secondary">
-                    FAQs
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-body-secondary">
-                    About
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            <div className="col-md-5 offset-md-1 mb-3">
-              <form>
-                <h5>Subscribe to our newsletter</h5>
-                <p>Monthly digest of what new and exciting from us.</p>
-                <div className="d-flex flex-column flex-sm-row w-100 gap-2">
-                  <label className="visually-hidden">Email address</label>
-                  <input
-                    id="newsletter1"
-                    type="text"
-                    className="form-control"
-                    placeholder="Email address"
-                  />
-                  <button className="btn btn-primary" type="button">
-                    Subscribe
-                  </button>
-                </div>
+            <div className="col-md-5 offset-md-1 mb-2 px-5">
+              <form className="py-3">
+                <h5>ดาว์นโหลดแอปพลิเคชั่น THE SKYTRAINs ได้ที่</h5>
+                <img
+                  src={TrianLogo}
+                  alt="TrianLogo"
+                  height={110}
+                  width={110}
+                  className="mx-2"
+                />
+                <img
+                  src={Qrcode}
+                  alt="Qrcode"
+                  height={110}
+                  width={110}
+                  className="mx-2"
+                />
+                <img
+                  src={Appstore}
+                  alt="Appstore"
+                  height={40}
+                  width={110}
+                  className="mx-2"
+                />
+                <img
+                  src={Googleplay}
+                  alt="Googleplay"
+                  height={40}
+                  width={110}
+                />
               </form>
             </div>
-          </div>
-
-          <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-            <p>© 2023 Company, Inc. All rights reserved.</p>
-            <ul className="list-unstyled d-flex">
-              <li className="ms-3">
-                <a className="link-body-emphasis" href="#">
-                  <svg className="bi" width="24" height="24"></svg>
-                </a>
-              </li>
-              <li className="ms-3">
-                <a className="link-body-emphasis" href="#">
-                  <svg className="bi" width="24" height="24"></svg>
-                </a>
-              </li>
-              <li className="ms-3">
-                <a className="link-body-emphasis" href="#">
-                  <svg className="bi" width="24" height="24"></svg>
-                </a>
-              </li>
-            </ul>
           </div>
         </footer>
       </div>

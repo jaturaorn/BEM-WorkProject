@@ -3,13 +3,13 @@ const FooterTop = () => {
   return (
     <div>
       {" "}
-      <nav className="py-auto bg-body-tertiary border-bottom bg-secondary">
+      <nav className="py-auto bg-body-black border-bottom bg-secondary">
         <div className="container d-flex flex-wrap">
           <ul className="nav me-auto">
             <li className="nav-item">
               <a
                 href="#"
-                className="nav-link link-body-emphasis px-2 active"
+                className="nav-link link-body-emphasis px-2 active text-light"
                 aria-current="page"
               >
                 <img src={PassImg} alt="Passendger-char" className="me-1" />
@@ -20,7 +20,7 @@ const FooterTop = () => {
           </ul>
           <ul className="nav">
             <li className="nav-item">
-              <a href="#" className="nav-link link-body-emphasis px-2">
+              <a href="#" className="nav-link px-2 mt-1 text-light">
                 ค้นหาเมนูเว็บไซต์
               </a>
             </li>
@@ -33,7 +33,7 @@ const FooterTop = () => {
               </button>
               <button
                 type="button"
-                className="btn btn-black-50 dropdown-toggle dropdown-toggle-split border-secondary"
+                className="btn btn-light dropdown-toggle dropdown-toggle-split border-secondary"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >

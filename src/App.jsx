@@ -12,6 +12,7 @@ import FooterImage from "../component/FooterImage.jsx";
 import Contact from "../component/Contact.jsx";
 import FooterTop from "../component/FooterTop.jsx";
 import Footer from "../component/Footer.jsx";
+import FooterBottom from "../component/BottomFooter.jsx";
 import "./App.css";
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <Contact />
       <FooterTop />
       <Footer />
+      <FooterBottom />
     </>
   );
 }
