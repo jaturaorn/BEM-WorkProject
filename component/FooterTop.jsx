@@ -1,8 +1,9 @@
+import PassImg from "../images/passendger-char.png";
 const FooterTop = () => {
   return (
     <div>
       {" "}
-      <nav className="py-auto bg-body-tertiary border-bottom bg-warning-subtle">
+      <nav className="py-auto bg-body-tertiary border-bottom bg-secondary">
         <div className="container d-flex flex-wrap">
           <ul className="nav me-auto">
             <li className="nav-item">
@@ -11,36 +12,51 @@ const FooterTop = () => {
                 className="nav-link link-body-emphasis px-2 active"
                 aria-current="page"
               >
-                หน้าแรก
-              </a>
-            </li>
-            <li className="nav-item border-start border-dark">
-              <a href="#" className="nav-link link-body-emphasis px-2">
-                E-Library
-              </a>
-            </li>
-            <li className="nav-item border-start border-dark">
-              <a href="#" className="nav-link link-body-emphasis px-2">
-                ข้อแนะนำเพื่อความปลอดภัย
+                <img src={PassImg} alt="Passendger-char" className="me-1" />
+                รายงานสถิติผู้โดยสารตั้งแต่ 03/06/2023 - 06/07/2023 จำนวน
+                1,901,228 เที่ยวคน
               </a>
             </li>
           </ul>
           <ul className="nav">
             <li className="nav-item">
               <a href="#" className="nav-link link-body-emphasis px-2">
-                ร่วมงานกับเรา
+                ค้นหาเมนูเว็บไซต์
               </a>
             </li>
-            <li className="nav-item border-start border-dark">
-              <a href="#" className="nav-link link-body-emphasis px-2">
-                ติดต่อเรา
-              </a>
-            </li>
-            <li className="nav-item border-start border-dark">
-              <a href="#" className="nav-link link-body-emphasis px-2">
-                ภาษาไทย
-              </a>
-            </li>
+            <div className="btn-group my-1">
+              <button
+                type="button"
+                className="btn btn-light btn-md text-black-50 border-secondary"
+              >
+                ประวัติความเป็นมา
+              </button>
+              <button
+                type="button"
+                className="btn btn-black-50 dropdown-toggle dropdown-toggle-split border-secondary"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <span className="visually-hidden">Toggle Dropdown</span>
+              </button>
+              <ul className="dropdown-menu">
+                <li>
+                  <a className="dropdown-item" href="#">
+                    1
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    2
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    3
+                  </a>
+                </li>
+              </ul>
+            </div>
           </ul>
         </div>
       </nav>
