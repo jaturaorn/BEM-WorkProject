@@ -6,7 +6,7 @@ const Carding = () => {
   return (
     <>
       <div className="pricing-header p-3 pb-md-4 mx-auto col-lg-3 text-center">
-        <h3 className="display-4 fw-normal text-body-emphasis fs-2 border-bottom border-warning">
+        <h3 className="display-4 fw-normal text-body-emphasis fs-2 border-bottom border-warning border-4">
           ข่าวสารและกิจกรรม
         </h3>
       </div>

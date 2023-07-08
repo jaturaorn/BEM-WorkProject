@@ -13,7 +13,7 @@ const CardCarousel = () => {
     <>
       <div className="container-fluid bg-img">
         <div className=" pb-md-4 mx-auto col-lg-2 text-center">
-          <h1 className="display-3 text-center fw-bold fs-2 my-5 border-bottom border-dark">
+          <h1 className="display-3 text-center fw-bold fs-2 my-5 border-bottom border-4 border-dark">
             E-Library
           </h1>
         </div>

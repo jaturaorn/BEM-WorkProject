@@ -4,7 +4,7 @@ const Jum1 = () => {
     <>
       <div className="px-4 py-5 my-5 text-center">
         <div className="col-lg-2 mx-auto">
-          <h2 className="display-2 fw-bold text-body-emphasis fs-4 mb-4 border-bottom border-warning">
+          <h2 className="display-2 fw-bold text-body-emphasis fs-4 mb-4 border-bottom border-warning border-4">
             โปรโมชั่น
           </h2>
         </div>
