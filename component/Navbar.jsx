@@ -3,7 +3,7 @@ import Arrowdown from "../images/arrow-down-black.png";
 const navbar = () => {
   return (
     <>
-      <header className="p-1 mb-auto border-bottom bg-warning ">
+      <header className="p-1 mb-auto border-bottom bg-warning">
         <div className="container">
           <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
             <a
