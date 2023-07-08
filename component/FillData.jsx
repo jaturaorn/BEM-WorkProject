@@ -3,6 +3,7 @@ import IMG2 from "../images/bt2.png";
 import IMG3 from "../images/bt3.png";
 import IMG4 from "../images/bt4.png";
 import IMG5 from "../images/bt5.png";
+import Button from "react-bootstrap/Button";
 
 const FillData = () => {
   return (
@@ -53,7 +54,7 @@ const FillData = () => {
                 role="group"
                 aria-label="First group"
               >
-                <button type="button" className="btn btn-light btn-lg me-3">
+                <button type="button" className="btn btn-light btn-md me-3">
                   <img
                     src={IMG1}
                     alt="รูป1"
@@ -63,17 +64,17 @@ const FillData = () => {
                   />
                   เส้นทางและอัตราค่าโดยสาร
                 </button>
-                <button type="button" className="btn btn-light btn-lg">
-                  <img
-                    src={IMG2}
-                    alt="รูป1"
-                    height={50}
-                    width={50}
-                    className="me-2"
-                  />
-                  แผนที่บริเวณสถานี
-                </button>
               </div>
+              <Button href="#" className="btn btn-light btn-md me-1 py-3">
+                <img
+                  src={IMG2}
+                  alt="รูป1"
+                  height={50}
+                  width={50}
+                  className="me-2"
+                />
+                แผนที่บริเวณ
+              </Button>
             </div>
             <div
               className="btn-toolbar mb-3"
@@ -85,7 +86,7 @@ const FillData = () => {
                 role="group"
                 aria-label="First group"
               >
-                <button type="button" className="btn btn-light btn-lg me-3">
+                <button type="button" className="btn btn-light btn-md me-3">
                   <img
                     src={IMG3}
                     alt="รูป3"
@@ -95,17 +96,17 @@ const FillData = () => {
                   />
                   เวลาและความถี่การเดินทาง
                 </button>
-                <button type="button" className="btn btn-light btn-lg">
-                  <img
-                    src={IMG4}
-                    alt="รูป3"
-                    height={50}
-                    width={50}
-                    className="me-2"
-                  />
-                  ทรัพย์สินสูญหาย
-                </button>
               </div>
+              <Button href="#" className="btn btn-light btn-md me-1 py-3">
+                <img
+                  src={IMG4}
+                  alt="รูป1"
+                  height={50}
+                  width={50}
+                  className="me-2"
+                />
+                lostproperty
+              </Button>
             </div>
             <div
               className="btn-toolbar mb-3"

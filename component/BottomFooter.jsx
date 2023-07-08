@@ -7,7 +7,7 @@ const BottomFooter = () => {
           <br />
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis
         </p>
-        <div className="row d-flex justify-content-end pe-5">
+        <div className="d-flex justify-content-end pe-2">
           <p>
             เว็บไซต์นี้แสดงผลได้ดีใน Chorme(43): Safari(9) : Firefox(16)
             <br />
